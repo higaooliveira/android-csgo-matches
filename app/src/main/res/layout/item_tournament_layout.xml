@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:bind="http://schemas.android.com/apk/res-auto">
+
+    <data class="TournamentItem">
+        <variable
+            name="tournamentItemViewModel"
+            type="com.higor.csgomatches.ui.tournaments.TournamentsItemViewModel" />
+    </data>
+
+    <com.higor.csgomatches.ui.widget.PosterImageView
+        android:id="@+id/poster"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:clickable="true"
+        android:foreground="?attr/selectableItemBackground"
+        bind:imageUrl="@{ tournamentItemViewModel.imageUrl }"
+        android:onClick="@{ ()-> tournamentItemViewModel.clickTournamentItem() }"
+        tools:src="@drawable/csgo_placeholder"
+        />
+</layout>

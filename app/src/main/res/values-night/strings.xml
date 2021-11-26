@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="error_msg_empty_tournaments">Uh uh, too bad. No tournaments now</string>
+</resources>

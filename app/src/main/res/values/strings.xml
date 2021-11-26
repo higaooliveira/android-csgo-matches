@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">CsGoMatches</string>
+    <string name="error_msg_server">Hey, something seems to be wrong with the server</string>
+    <string name="error_msg_network">Hey, please check your connection or something</string>
+    <string name="error_msg_network_generic">Well, we screwed up. We don\'t really know what went wrong :(</string>
+    <string name="error_msg_empty_tournaments">Uh uh, too bad. No tournaments now</string>
+</resources>
